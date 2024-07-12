@@ -28,7 +28,7 @@ def text_process(mess):
 with open('pipeline.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-st.title('Spam or Ham?')
+st.title('Truth or Facade?')
 
 # Text input from the user
 user_input = st.text_area("Enter the message you want to classify:", "")
